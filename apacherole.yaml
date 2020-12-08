@@ -1,0 +1,5 @@
+---
+- hosts: 18.218.165.153
+  become: yes
+  roles:
+  - apache
